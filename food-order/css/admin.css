@@ -1,0 +1,121 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;  
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: burlywood;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: teal;
+}
+
+.btn-secondary{
+    background-color:lightgreen;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: teal;
+}
+
+.btn-danger{
+    background-color:rgb(157, 3, 3);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: teal;
+}
+
+.success{
+    color: darkgreen;
+}
+.error{
+    color: red;
+}
+
+/*css menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.menu ul li a:hover{
+    color: teal;
+}
+
+/*css  main content*/
+.main-content{
+    background-color: rgb(196, 101, 24);
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: gray;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*css login*/
+.login{
+    border: 1px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    
+}
